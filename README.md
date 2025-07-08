@@ -17,8 +17,7 @@ AIDESK는 Windows 부팅 후 자동 실행되어 영화 '아이언맨'의 J.A.R.
         "TEMPLATES_USE": "en",
         "ENABLE_GUI": "false"
       }
-    }
-
+    },
   "unity-mcp-server": {
       "command": "node",
       "args": [
