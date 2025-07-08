@@ -5,7 +5,20 @@
 AIDESK는 Windows 부팅 후 자동 실행되어 영화 '아이언맨'의 J.A.R.V.I.S.처럼  
 시네마틱한 부팅 연출과 함께 AI 스타일의 데스크탑 HUD를 적용하는 차세대 데스크탑 커스터마이징 툴입니다.
 
-- [shrimp-task-manager](https://glama.ai/mcp/servers/@cjo4m06/mcp-shrimp-task-manager?locale=ko-KR)
+- [Cursor]([https://glama.ai/mcp/servers/@cjo4m06/mcp-shrimp-task-manager?locale=ko-KR](https://cursor.com/downloads))
+  ~~~C
+  "shrimp-task-manager": {
+      "command": "node",
+      "args": ["/path/to/mcp-shrimp-task-manager/dist/index.js"],
+      "env": {
+        "DATA_DIR": "/path/to/project/data",
+        "MCP_PROMPT_PLAN_TASK": "Custom planning guidance...",
+        "MCP_PROMPT_EXECUTE_TASK_APPEND": "Additional execution instructions...",
+        "TEMPLATES_USE": "en",
+        "ENABLE_GUI": "false"
+      }
+    }
+  ~~~
 - [NodeJs](https://nodejs.org/ko/download)
 
 ---
