@@ -23,8 +23,12 @@ AIDESK는 Windows 부팅 후 자동 실행되어 영화 '아이언맨'의 J.A.R.
 - Korean Lenguage
 - Live Server
 - Material Icon Theme
-- Vue - Official 
+- Vue - Official
 - [NodeJs](https://nodejs.org/ko/download)
+
+### MCP
+- context7
+- Sequential Thinking
 
 ---
 
