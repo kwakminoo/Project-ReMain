@@ -18,6 +18,16 @@ AIDESK는 Windows 부팅 후 자동 실행되어 영화 '아이언맨'의 J.A.R.
         "ENABLE_GUI": "false"
       }
     }
+
+  "unity-mcp-server": {
+      "command": "node",
+      "args": [
+        "path-to-project>\\Library\\PackageCache\\com.quaza.unitymcp@d2b8f1260bca\\mcpServer\\mcpServer\\build\\index.js"
+      ],
+      "env": {
+        "MCP_WEBSOCKET_PORT": "5010"
+      }
+    }
   ~~~
 - Auto Rename Tag
 - Korean Lenguage
