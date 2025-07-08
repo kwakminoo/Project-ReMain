@@ -37,12 +37,11 @@ AIDESK는 Windows 부팅 후 자동 실행되어 영화 '아이언맨'의 J.A.R.
     wsl --install
     ~~~
 2. Node JS + Claude Code 설치 명령어 (영상 2:18)
-   ~~~
+~~~
   curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
   sudo apt update && sudo apt install -y nodejs
   sudo npm install -g @anthropic-ai/claude-code
-  ~~~
-
+~~~
 
 ---
 
